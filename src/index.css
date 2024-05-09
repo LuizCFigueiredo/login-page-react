@@ -1,0 +1,23 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../src/images/maxwell-ridgeway-UyhtqolKMb4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+code {
+  font-family: 'Roboto' , source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,16 @@
+.Button{
+    margin-top: 15px;
+}
+
+.Button button{
+    
+    border-radius: 0.538rem;
+    border: none;
+    width: 49px;
+    height: 23px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Roboto Condensed', Tahoma, Geneva, Verdana, sans-serif;
+    
+}

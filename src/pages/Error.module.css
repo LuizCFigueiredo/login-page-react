@@ -1,0 +1,19 @@
+.main{
+    height: calc(100% - 70px);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bolder;
+    filter: drop-shadow(-12px 0px 10px #000000);
+}
+
+.main svg{
+    width: 5rem;
+    color: white;
+    height: auto;
+    filter: drop-shadow(-12px 0px 10px #000000);
+}

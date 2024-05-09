@@ -1,0 +1,51 @@
+.header {
+    background: rgb(96,96,96, 0.5);
+    filter: drop-shadow(4px 4px 6px #000000);
+    filter: brightness(1);
+    padding-inline: 16px;
+    position:sticky;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+}
+
+span{
+    color: white;
+    cursor:pointer;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-block: 16px;
+    text-decoration: none;
+}
+
+li .SpanLi::after{
+    content: '';
+    display: flex;
+    position: relative;
+    width: 0px;
+    height: 1.5px;
+    bottom: 0;
+    left: 50%;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s ease, left 0.3s ease;
+    transform: translateX(-50%);
+}
+
+li .SpanLi:hover::after{
+    width: 100%;
+}
