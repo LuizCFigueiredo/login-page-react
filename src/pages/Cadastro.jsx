@@ -1,12 +1,20 @@
-import { IoIosConstruct } from "react-icons/io";
+
 import styles from "./Cadastro.module.css"
+import Button from "../components/Forms/Button/Button";
+import Input from "../components/Forms/Input/Input";
+import { Link } from "react-router-dom";
+import MinhaImagem from "../images/imagem_2024-04-26_140952126-removebg-preview.png"
 
 function Cadastro () {
     return(
-        <main className={styles.main}>
-            <p>Página em construção</p>
-            <span><IoIosConstruct /></span>
-        </main>
+         <main>
+         <div className={styles.main}>
+           <div className={styles.Logo}>
+           </div>
+           <form className={styles.formConteiner}>
+           </form>
+         </div>
+       </main>
     )
 }
 

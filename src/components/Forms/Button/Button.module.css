@@ -1,16 +1,15 @@
-.Button{
-    margin-top: 15px;
+.Button, button{
+    background-color: #333;
+    color: #eee;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
 }
 
-.Button button{
-    
-    border-radius: 0.538rem;
-    border: none;
-    width: 49px;
-    height: 23px;
-    cursor: pointer;
-    font-size: 10px;
-    font-weight: bold;
-    font-family:'Roboto Condensed', Tahoma, Geneva, Verdana, sans-serif;
-    
+.Button button:hover{
+    background-color: #EEE;
+    color: #111;
+    border: 1px solid #111;
+    transition: all ease 0.3s;
 }

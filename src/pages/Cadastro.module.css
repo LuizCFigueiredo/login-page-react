@@ -1,18 +1,95 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .main{
-    height: calc(100% - 70px);
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items:center;
-    justify-content: center;
+    flex-direction: row;
+    gap: 2;
+}
+.formConteiner{
+   flex: 1;
+   min-width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #EEE;
+   height: 100%;
+   padding: 24px;
+}
+
+.welcome {
+    margin-bottom: 16px;
+}
+
+fp{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.094rem;
+    margin-top: 12%;
+    margin-left: 10px;
+}
+
+.conteinerLogin{
+    display: flex;
     flex-direction: column;
+    gap: 16px;
 }
 
-p{
-    filter: drop-shadow(-12px 0px 10px #000000);
+.fP{
+    cursor: pointer;
 }
 
-.main svg{
-    width: 5rem;
-    color: white;
-    height: auto;
-    filter: drop-shadow(-12px 0px 10px #000000);
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 2;
+    background-color: #33333350;
+    background-image: url(../images/maxwell-ridgeway-UyhtqolKMb4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.logoContainer small {
+    margin-top: -16px;
+    font-weight: lighter;
+}
+
+.ConteinerLink{
+    height: 5px;
+    width: auto;
+    text-align: center;
+    margin: 25px;
+}
+
+.ConteinerLink small{
+    color: #333;
+}
+
+.ConteinerLink h5{
+    color:black;
+    margin: 2px;
+}
+
+@media screen and (min-width: 576px) {
+    .form-content{
+        width: 550px;
+        height: 440px;
+    }
+    
 }

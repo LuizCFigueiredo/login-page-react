@@ -8,7 +8,7 @@ import Error from '../pages/Error';
 
 const RouteApp = () => (
     <Router>
-    <NavBar />
+    {/*  <NavBar />*/}
     <Routes>
         <Route path='/' element={<LoginPage />}></Route>
         <Route path='/cadastro' element={<Cadastro />}></Route>

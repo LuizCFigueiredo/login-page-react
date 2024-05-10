@@ -1,23 +1,20 @@
 .Input{
     display: flex;
     flex-direction: column;
-
+    font-weight: bold;
 }
 
 .Input label{
 
-    color:#fff;
-    margin-top: 20px; 
-    font-weight: lighter;
-    font-size: 22px;
+    color:#333;
+    font-size: 12px;
 }
 
 .Input input{
-    border-radius: 0.538rem;
+    border-radius: 4px;
     border: none;
-    width: 70%;
-    height: 26px;
-    margin-top: 3.5px;
+    height: 35px;
+    margin-top: 2px;
     cursor: pointer;
-    padding: .5rem;
+    padding: 4px;
 }
